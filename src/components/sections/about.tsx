@@ -20,7 +20,7 @@ export function About() {
         <SectionHeading
           label="// about"
           title="Data Analyst That Ships"
-          description="Turning data into decisions — with dashboards, models, and insights."
+          description="Turning data into decisions - with dashboards, models, and insights."
         />
 
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
@@ -72,21 +72,13 @@ $ echo $STATUS
             <div className="flex flex-col justify-center space-y-8">
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  I&apos;m Saranya Srija, a data analyst based in Tempe, AZ. I
-                  specialize in turning raw data into actionable insights —
-                  building dashboards, writing efficient SQL, and developing
-                  predictive models that drive business decisions.
+                  I&apos;m Saranya Srija, a data analyst based in Tempe, AZ. My work lives at the intersection of data engineering, analytics, and business strategy. I build dashboards, optimize SQL at scale, and develop predictive models that actually move the needle for stakeholders.
                 </p>
                 <p>
-                  My experience spans financial data analysis, CRM analytics,
-                  customer segmentation, and process optimization using Lean Six
-                  Sigma. I&apos;m passionate about uncovering patterns in data and
-                  translating them into meaningful business impact.
+                  Right now I&apos;m a Data Analyst Intern at KATBOTZ LLC, where I built an FP&A Co-Pilot on Databricks using a Llama 3.3 70B model that lets non-technical users query financial data in plain English. I also work with Datagaps & FocalCXM creating HubSpot-driven BI dashboards and segmentation strategies. Previously at Yonder Talent, I built regression and XGBoost models to forecast staffing demand with 90% accuracy.
                 </p>
                 <p>
-                  When I&apos;m not querying databases or building dashboards,
-                  you&apos;ll find me exploring new analytics tools and working on
-                  data-driven side projects.
+                  My toolkit spans SQL, Tableau, Power BI, Python, Databricks, HubSpot, and Excel. I hold an MS in Business Analytics from ASU (Supply Chain concentration) and bring a Lean Six Sigma mindset to every problem. When I&apos;m not wrangling data, I&apos;m exploring new analytics tools and building data-driven side projects.
                 </p>
               </div>
 

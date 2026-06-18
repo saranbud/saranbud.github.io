@@ -71,8 +71,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mx-auto mb-10 max-w-2xl text-lg text-muted-foreground sm:text-xl"
         >
-          Data analyst turning raw data into clear insights — from SQL and
-          dashboards to predictive models and process optimization.
+Data analyst who turns messy datasets into clear stories. From building AI-powered financial co-pilots on Databricks to crafting CRM dashboards that drive sales strategy, I bridge the gap between complex data and business decisions.
         </motion.p>
 
         {/* CTAs */}
@@ -93,6 +92,13 @@ export function Hero() {
             className={buttonVariants({ variant: "outline", size: "lg" })}
           >
             Get in Touch
+          </a>
+          <a
+            href="/saranya_resume.docx"
+            target="_blank"
+            className={buttonVariants({ variant: "outline", size: "lg" })}
+          >
+            Resume
           </a>
           <div className="flex items-center gap-2">
             <a

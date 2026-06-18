@@ -52,7 +52,7 @@ export const projects: Project[] = [
     category: "finance",
   },
   {
-    title: "CH(AI)NED — AI Supplier Sourcing",
+    title: "CH(AI)NED - AI Supplier Sourcing",
     description:
       "AI-driven platform transforming supplier sourcing using machine learning, NLP, and real-time risk scoring. Reduces sourcing time and improves match quality with ESG compliance visibility.",
     tech: ["Machine Learning", "NLP", "Python", "Risk Scoring"],

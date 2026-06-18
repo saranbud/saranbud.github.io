@@ -15,18 +15,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Saranya Srija — Data Analyst",
+  title: "Saranya Srija - Data Analyst",
   description:
-    "Portfolio of Saranya Srija (@saranbud) — data analyst turning raw data into clear insights, from SQL and dashboards to predictive models.",
+    "Portfolio of Saranya Srija (@saranbud) - data analyst turning raw data into clear insights, from SQL and dashboards to predictive models.",
   openGraph: {
-    title: "Saranya Srija — Data Analyst",
+    title: "Saranya Srija - Data Analyst",
     description:
       "Data analyst turning raw data into clear insights, from SQL and dashboards to predictive models.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Saranya Srija — Data Analyst",
+    title: "Saranya Srija - Data Analyst",
     description:
       "Data analyst turning raw data into clear insights, from SQL and dashboards to predictive models.",
     creator: "@saranbud",
