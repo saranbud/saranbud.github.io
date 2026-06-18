@@ -8,35 +8,27 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    company: "DeepMind",
-    role: "Senior AI Research Engineer",
-    period: "2023 — Present",
+    company: "KATBOTZ LLC",
+    role: "Data Analyst Intern",
+    period: "Feb 2026 — Present",
     description:
-      "Leading research on multi-modal foundation models. Built internal tooling for large-scale distributed training across TPU pods.",
-    tech: ["JAX", "TPU", "Transformers", "Python"],
+      "Wrote and optimized SQL queries in Databricks to analyze SAP S/4HANA financial data (100K+ records), reducing query execution time by 30%. Built data pipelines transforming raw SAP data into analysis-ready tables, cutting manual prep time by 40%. Developed KPI-focused datasets for dashboards tracking revenue, cost, and margin.",
+    tech: ["SQL", "Databricks", "Python", "Tableau", "Power BI"],
   },
   {
-    company: "OpenAI",
-    role: "ML Platform Engineer",
-    period: "2021 — 2023",
+    company: "Datagaps & FocalCXM",
+    role: "Data Analyst Intern",
+    period: "Dec 2025 — Present",
     description:
-      "Designed and scaled inference infrastructure for GPT models. Reduced latency by 40% through model optimization and caching strategies.",
-    tech: ["Python", "Kubernetes", "CUDA", "Redis"],
+      "Built 5+ BI dashboards with 20+ reports using SQL and HubSpot CRM to track sales pipeline, email campaign performance, and deal stage forecasting. Implemented an AI-powered monitoring agent using Claude AI to track expiring orders. Developed contact segmentation strategies analyzing clickstream data, identifying that webinars generated 78% of total leads.",
+    tech: ["SQL", "HubSpot CRM", "Power BI", "Claude AI", "Python"],
   },
   {
-    company: "Scale AI",
-    role: "Full-Stack ML Engineer",
-    period: "2020 — 2021",
+    company: "Yonder Talent",
+    role: "Business Analyst — Capstone Consultant",
+    period: "Aug 2025 — Dec 2025",
     description:
-      "Built data labeling pipelines and quality assurance systems for computer vision datasets. Shipped annotation tools used by 5k+ labelers.",
-    tech: ["React", "Python", "FastAPI", "PostgreSQL"],
-  },
-  {
-    company: "Hugging Face",
-    role: "Open Source Engineer (Intern)",
-    period: "2019 — 2020",
-    description:
-      "Contributed to the Transformers library. Implemented model architectures and wrote documentation for community adoption.",
-    tech: ["PyTorch", "Transformers", "TypeScript", "Docker"],
+      "Programmed predictive models including regression, SARIMA, Random Forest, and XGBoost to forecast demand and achieve 90% peak-period staffing coverage. Partnered cross-functionally to present Tableau-driven customer flow analytics, reducing wait times by 15%. Acted as analyst in Agile environment using Jira with Excel and Power BI dashboards.",
+    tech: ["Python", "Tableau", "Power BI", "Jira", "Excel"],
   },
 ];

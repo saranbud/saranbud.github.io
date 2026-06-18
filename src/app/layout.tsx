@@ -15,21 +15,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aaabad Touk — AI Engineer",
+  title: "Saranya Srija — Data Analyst",
   description:
-    "Portfolio of Aaabad Touk (@aaabadcode) — AI engineer building intelligent systems, from LLMs to computer vision.",
+    "Portfolio of Saranya Srija (@saranbud) — data analyst turning raw data into clear insights, from SQL and dashboards to predictive models.",
   openGraph: {
-    title: "Aaabad Touk — AI Engineer",
+    title: "Saranya Srija — Data Analyst",
     description:
-      "AI engineer building intelligent systems, from LLMs to computer vision.",
+      "Data analyst turning raw data into clear insights, from SQL and dashboards to predictive models.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aaabad Touk — AI Engineer",
+    title: "Saranya Srija — Data Analyst",
     description:
-      "AI engineer building intelligent systems, from LLMs to computer vision.",
-    creator: "@aaabadcode",
+      "Data analyst turning raw data into clear insights, from SQL and dashboards to predictive models.",
+    creator: "@saranbud",
   },
 };
 

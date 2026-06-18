@@ -7,12 +7,12 @@ export interface Social {
 export const socials: Social[] = [
   {
     name: "GitHub",
-    url: "https://github.com/aaaby-code",
+    url: "https://github.com/saranbud",
     icon: "Github",
   },
   {
-    name: "X / Twitter",
-    url: "https://x.com/aaabadcode",
-    icon: "Twitter",
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/saranyasrija/",
+    icon: "Linkedin",
   },
 ];

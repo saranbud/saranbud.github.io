@@ -1,7 +1,7 @@
 "use client";
 
 import { Mail, ArrowUpRight } from "lucide-react";
-import { GithubIcon, XIcon } from "@/components/ui/icons";
+import { GithubIcon, LinkedinIcon } from "@/components/ui/icons";
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { SectionHeading } from "@/components/ui/section-heading";
@@ -13,8 +13,8 @@ export function Contact() {
       <div className="mx-auto max-w-2xl">
         <SectionHeading
           label="// contact"
-          title="Let's Build Something"
-          description="Have a project in mind? I'm always open to discussing new opportunities."
+          title="Let's Connect"
+          description="Have a project or opportunity? I'd love to hear from you."
         />
 
         <FadeIn>
@@ -22,18 +22,18 @@ export function Contact() {
             <CardContent className="p-8 text-center">
               <div className="mb-8 space-y-4">
                 <a
-                  href="mailto:hello@aaabadcode.dev"
+                  href="mailto:saranya.s.buddhav@gmail.com"
                   className="group inline-flex items-center gap-2 text-lg font-mono text-primary transition-colors hover:text-foreground"
                 >
                   <Mail className="h-5 w-5" />
-                  hello@aaabadcode.dev
+                  saranya.s.buddhav@gmail.com
                   <ArrowUpRight className="h-4 w-4 opacity-0 transition-all group-hover:opacity-100 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
                 </a>
               </div>
 
               <div className="flex justify-center gap-4">
                 <a
-                  href="https://github.com/aaaby-code"
+                  href="https://github.com/saranbud"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={buttonVariants({ variant: "outline", size: "lg" })}
@@ -42,13 +42,13 @@ export function Contact() {
                   GitHub
                 </a>
                 <a
-                  href="https://x.com/aaabadcode"
+                  href="https://www.linkedin.com/in/saranyasrija/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={buttonVariants({ variant: "outline", size: "lg" })}
                 >
-                  <XIcon className="mr-2 h-4 w-4" />
-                  Twitter
+                  <LinkedinIcon className="mr-2 h-4 w-4" />
+                  LinkedIn
                 </a>
               </div>
             </CardContent>

@@ -1,16 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Brain, Globe, Server } from "lucide-react";
+import { BarChart3, Server, Database, Brain } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { FadeIn } from "@/components/motion/fade-in";
 import { skillCategories } from "@/data/skills";
 
 const iconMap: Record<string, React.ElementType> = {
-  Brain,
-  Globe,
+  BarChart3,
   Server,
+  Database,
 };
 
 export function Skills() {

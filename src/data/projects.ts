@@ -1,50 +1,64 @@
+export type ProjectCategory = "finance" | "technology" | "healthcare";
+
 export interface Project {
   title: string;
   description: string;
   tech: string[];
   gradient: string;
   icon: string;
+  url: string;
+  category: ProjectCategory;
 }
 
 export const projects: Project[] = [
   {
-    title: "NeuroChat",
+    title: "King County House Sales Dashboard",
     description:
-      "An enterprise LLM chatbot platform with multi-model orchestration, RAG pipelines, and real-time streaming. Handles 50k+ concurrent conversations.",
-    tech: ["React", "Python", "LangChain", "Redis", "PostgreSQL"],
+      "Interactive Tableau dashboard analyzing residential property sales in King County, WA. Explores price trends, geographic distribution, and how features like bedrooms, bathrooms, view, and condition impact sale prices.",
+    tech: ["Tableau", "Time-Series", "Geospatial", "Real Estate Analytics"],
     gradient: "from-cyan-500/20 to-blue-600/20",
-    icon: "MessageSquare",
+    icon: "Home",
+    url: "https://public.tableau.com/views/HouseSales-Dashboard-SARANYASB/Dashboard1",
+    category: "finance",
   },
   {
-    title: "VisionLab",
+    title: "British Airways Review Dashboard",
     description:
-      "Computer vision toolkit for real-time object detection, image segmentation, and visual search. Deployed across 200+ edge devices.",
-    tech: ["PyTorch", "OpenCV", "FastAPI", "Docker", "ONNX"],
+      "Tableau dashboard analyzing customer reviews and service ratings for British Airways. Tracks satisfaction trends, service gaps, and performance variations across regions, traveler types, seat classes, and aircraft models.",
+    tech: ["Tableau", "Customer Analytics", "Time-Series", "Geospatial"],
     gradient: "from-purple-500/20 to-pink-600/20",
-    icon: "Eye",
+    icon: "Plane",
+    url: "https://public.tableau.com/views/BritishAirwaysReview-SaranyaSB/BritishAirwaysReview",
+    category: "technology",
   },
   {
-    title: "CodeSensei",
+    title: "Gentech Proposal Optimization",
     description:
-      "AI-powered code reviewer that catches bugs, suggests optimizations, and enforces style guides. Integrated with GitHub Actions.",
-    tech: ["TypeScript", "GPT-4", "GitHub API", "Next.js", "Vercel"],
+      "Applied Lean Six Sigma DMAIC methodology to reduce proposal creation cycle time at a $60B company. Identified bottlenecks, delivered data-driven solutions targeting a 15% cycle time reduction.",
+    tech: ["Python", "Lean Six Sigma", "Statistical Modeling", "FMEA"],
     gradient: "from-green-500/20 to-emerald-600/20",
-    icon: "Code",
-  },
-  {
-    title: "FlowML",
-    description:
-      "ML pipeline orchestrator for training, evaluation, and deployment. Supports distributed training across multi-GPU clusters.",
-    tech: ["Python", "Kubernetes", "Apache Airflow", "Go", "gRPC"],
-    gradient: "from-orange-500/20 to-red-600/20",
     icon: "Workflow",
+    url: "https://github.com/saranbud/Gentech-A-Data-Driven-Approach-to-Proposal-Optimization.git",
+    category: "technology",
   },
   {
-    title: "PixelForge",
+    title: "Marketing Campaign Analysis",
     description:
-      "AI image generation platform with fine-tuning, inpainting, and style transfer. Serves 10k+ generations daily.",
-    tech: ["Stable Diffusion", "React", "Node.js", "AWS", "S3"],
+      "Built a Random Forest model to predict customer purchase likelihood for a food company's direct marketing campaign. Identified key drivers: income, recency, loyalty, and purchase channels with 72% accuracy.",
+    tech: ["Python", "Random Forest", "ANOVA", "Chi-Square"],
+    gradient: "from-orange-500/20 to-red-600/20",
+    icon: "TrendingUp",
+    url: "https://github.com/saranbud/Food_Data_Analysis.git",
+    category: "finance",
+  },
+  {
+    title: "CH(AI)NED — AI Supplier Sourcing",
+    description:
+      "AI-driven platform transforming supplier sourcing using machine learning, NLP, and real-time risk scoring. Reduces sourcing time and improves match quality with ESG compliance visibility.",
+    tech: ["Machine Learning", "NLP", "Python", "Risk Scoring"],
     gradient: "from-pink-500/20 to-violet-600/20",
-    icon: "Image",
+    icon: "Globe",
+    url: "https://github.com/saranbud/SUB-ZERO-SDP-Analysis.git",
+    category: "technology",
   },
 ];

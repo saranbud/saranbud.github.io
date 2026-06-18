@@ -1,6 +1,6 @@
 export interface Skill {
   name: string;
-  level: number; // 0-100
+  level: number;
 }
 
 export interface SkillCategory {
@@ -11,36 +11,34 @@ export interface SkillCategory {
 
 export const skillCategories: SkillCategory[] = [
   {
-    category: "AI / Machine Learning",
-    icon: "Brain",
+    category: "Data Analysis & Reporting",
+    icon: "BarChart3",
     skills: [
-      { name: "PyTorch", level: 95 },
-      { name: "LangChain", level: 90 },
-      { name: "Transformers", level: 88 },
-      { name: "Computer Vision", level: 85 },
-      { name: "MLOps", level: 82 },
+      { name: "SQL", level: 90 },
+      { name: "Tableau", level: 85 },
+      { name: "Power BI", level: 85 },
+      { name: "Excel", level: 88 },
+      { name: "Python", level: 80 },
     ],
   },
   {
-    category: "Web Development",
-    icon: "Globe",
-    skills: [
-      { name: "TypeScript", level: 93 },
-      { name: "React / Next.js", level: 92 },
-      { name: "Node.js", level: 88 },
-      { name: "Python", level: 95 },
-      { name: "Go", level: 75 },
-    ],
-  },
-  {
-    category: "Infrastructure",
+    category: "Tools & Platforms",
     icon: "Server",
     skills: [
-      { name: "Docker", level: 90 },
-      { name: "Kubernetes", level: 85 },
-      { name: "AWS", level: 88 },
-      { name: "CI/CD", level: 87 },
-      { name: "PostgreSQL", level: 83 },
+      { name: "HubSpot CRM", level: 82 },
+      { name: "Databricks", level: 80 },
+      { name: "Amazon S3", level: 70 },
+      { name: "Jira / Agile", level: 75 },
+    ],
+  },
+  {
+    category: "Programming & Databases",
+    icon: "Database",
+    skills: [
+      { name: "Python (Pandas/NumPy)", level: 85 },
+      { name: "PostgreSQL", level: 80 },
+      { name: "R (tidyverse)", level: 70 },
+      { name: "Statistical Modeling", level: 75 },
     ],
   },
 ];
