@@ -94,7 +94,7 @@ Data analyst who turns messy datasets into clear stories. From building AI-power
             Get in Touch
           </a>
           <a
-            href="/saranya_resume.pdf"
+            href="/saranya_resume.docx"
             target="_blank"
             className={buttonVariants({ variant: "outline", size: "lg" })}
           >
