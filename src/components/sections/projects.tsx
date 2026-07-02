@@ -8,6 +8,7 @@ import {
   Workflow,
   TrendingUp,
   Globe,
+  DollarSign,
   Code,
 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
@@ -22,6 +23,7 @@ const iconMap: Record<string, React.ElementType> = {
   Workflow,
   TrendingUp,
   Globe,
+  DollarSign,
 };
 
 const categoryLabels: Record<string, string> = {

@@ -8,7 +8,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const stats = [
   { label: "Projects Delivered", value: "8+" },
-  { label: "Years Experience", value: "2+" },
+  { label: "Years Experience", value: "1yr" },
   { label: "Tools Mastered", value: "10+" },
   { label: "Certifications", value: "3" },
 ];

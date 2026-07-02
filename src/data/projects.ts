@@ -52,6 +52,16 @@ export const projects: Project[] = [
     category: "finance",
   },
   {
+    title: "Specialty Coffee Pricing Analysis",
+    description:
+      "Analyzed 4,400+ orders across a coffee company's full product catalog from 2023-2025 on Databricks. Built an automated pipeline joining 5 source tables to compute revenue growth, gross margins, regional pricing power, and product profitability rankings using SQL and Lakeview dashboards.",
+    tech: ["Databricks", "SQL", "Unity Catalog", "Lakeview Dashboards"],
+    gradient: "from-amber-500/20 to-orange-600/20",
+    icon: "TrendingUp",
+    url: "https://github.com/saranbud/pricing-analysis-da-viz",
+    category: "finance",
+  },
+  {
     title: "CH(AI)NED - AI Supplier Sourcing",
     description:
       "AI-driven platform transforming supplier sourcing using machine learning, NLP, and real-time risk scoring. Reduces sourcing time and improves match quality with ESG compliance visibility.",
