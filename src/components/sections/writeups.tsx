@@ -5,6 +5,7 @@ import {
   Workflow,
   TrendingUp,
   Globe,
+  BookOpen,
   Code,
 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
@@ -17,6 +18,7 @@ const iconMap: Record<string, React.ElementType> = {
   Workflow,
   TrendingUp,
   Globe,
+  BookOpen,
 };
 
 export function Writeups() {

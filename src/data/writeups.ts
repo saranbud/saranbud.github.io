@@ -9,6 +9,15 @@ export interface Writeup {
 
 export const writeups: Writeup[] = [
   {
+    title: "The Magic Conveyor Belt - Book Writeup",
+    description:
+      "A book writeup exploring supply chain analytics through the lens of data storytelling. Bridges analytical frameworks with narrative techniques to make complex supply chain insights accessible and actionable.",
+    tech: ["Supply Chain Analytics", "Analytics", "Storytelling"],
+    gradient: "from-blue-500/20 to-teal-600/20",
+    icon: "BookOpen",
+    url: "/magic-conveyor-belt-writeup.pdf",
+  },
+  {
     title: "Gentech Proposal Optimization",
     description:
       "Applied Lean Six Sigma DMAIC methodology to reduce proposal creation cycle time at a $60B company. Identified bottlenecks, delivered data-driven solutions targeting a 15% cycle time reduction.",
