@@ -47,7 +47,7 @@ export function Projects() {
         <SectionHeading
           label="// projects"
           title="What I've Built"
-          description="A selection of data analytics and AI-powered projects. More case studies and write-ups coming soon!"
+          description="Dashboards and data visualizations built with Tableau, Databricks Lakeview, and other BI tools."
         />
 
         {/* Filter tabs */}
