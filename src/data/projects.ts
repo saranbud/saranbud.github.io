@@ -22,6 +22,16 @@ export const projects: Project[] = [
     category: "finance",
   },
   {
+    title: "Nutrition & Obesity Analysis - US States",
+    description:
+      "Analyzed 110K+ rows of CDC BRFSS data across 55 states/territories over 14 years on Databricks. Built a pipeline exploring obesity trends, demographic breakdowns by sex/age/income/education/race, and socioeconomic correlations using Spark SQL. Delivered a 5-panel Lakeview dashboard mapping the American obesity crisis.",
+    tech: ["Databricks", "Spark SQL", "Unity Catalog", "Lakeview Dashboards", "CDC BRFSS"],
+    gradient: "from-red-500/20 to-rose-600/20",
+    icon: "TrendingUp",
+    url: "https://github.com/saranbud/nutriton-and-obesity-analysis-US-States.git",
+    category: "healthcare",
+  },
+  {
     title: "King County House Sales Dashboard",
     description:
       "Interactive Tableau dashboard analyzing residential property sales in King County, WA. Explores price trends, geographic distribution, and how features like bedrooms, bathrooms, view, and condition impact sale prices.",
