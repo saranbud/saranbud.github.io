@@ -12,6 +12,16 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Tinnitus Patient Segmentation",
+    description:
+      "Applied K-Means clustering on a 10,000-patient synthetic tinnitus cohort to identify 4 clinically meaningful patient subgroups on Databricks. Built an end-to-end pipeline with feature engineering, stability validation (ARI 0.976), and a live AI/BI dashboard mapping segment profiles and treatment engagement strategies.",
+    tech: ["Databricks", "PySpark", "scikit-learn", "Unity Catalog", "AI/BI Dashboards"],
+    gradient: "from-red-500/20 to-purple-600/20",
+    icon: "TrendingUp",
+    url: "https://github.com/saranbud/Customer_Segmentation_Tinnitus-Patients",
+    category: "healthcare",
+  },
+  {
     title: "Specialty Coffee Pricing Analysis",
     description:
       "Analyzed 4,400+ orders across a coffee company's full product catalog from 2023-2025 on Databricks. Built an automated pipeline joining 5 source tables to compute revenue growth, gross margins, regional pricing power, and product profitability rankings using SQL and Lakeview dashboards.",
