@@ -89,7 +89,7 @@ $ echo $STATUS
                 </p>
                 <motion.div className="flex items-center gap-6">
                   {[
-                    { src: "/images/katbotz.svg", alt: "KATBOTZ LLC" },
+                    { src: "/images/katbotz.jpg", alt: "KATBOTZ LLC" },
                     { src: "/images/datagaps.jpg", alt: "Datagaps" },
                     { src: "/images/asu.png", alt: "ASU" },
                   ].map((logo, i) => (
