@@ -98,7 +98,7 @@ export function Contact() {
                   </div>
                 ) : (
                   <form
-                    action="https://formspree.io/f/YOUR_FORM_ID"
+                    action="https://formspree.io/f/mwvgnrol"
                     method="POST"
                     onSubmit={(e) => {
                       e.preventDefault();
