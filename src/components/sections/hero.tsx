@@ -50,7 +50,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="mb-4 flex items-center justify-center gap-4"
         >
-          <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-full border-2 border-border/50 sm:h-16 sm:w-16">
+          <div className="relative h-14 w-20 shrink-0 overflow-hidden rounded-xl border-2 border-border/50 sm:h-16 sm:w-24">
             <Image
               src="/images/pfp.png"
               alt="Saranya Srija"
