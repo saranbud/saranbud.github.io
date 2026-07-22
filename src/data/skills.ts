@@ -28,6 +28,8 @@ export const skillCategories: SkillCategory[] = [
       { name: "HubSpot CRM", level: 82 },
       { name: "Databricks", level: 80 },
       { name: "Amazon S3", level: 70 },
+      { name: "PySpark", level: 70 },
+      { name: "Docker", level: 65 },
       { name: "Jira / Agile", level: 75 },
     ],
   },
@@ -39,6 +41,8 @@ export const skillCategories: SkillCategory[] = [
       { name: "PostgreSQL", level: 80 },
       { name: "R (tidyverse)", level: 70 },
       { name: "Statistical Modeling", level: 75 },
+      { name: "scikit-learn", level: 70 },
+      { name: "LLMs / GenAI", level: 55 },
     ],
   },
 ];
