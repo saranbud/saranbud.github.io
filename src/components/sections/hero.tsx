@@ -44,15 +44,26 @@ export function Hero() {
         </motion.div>
 
         {/* Name */}
-        <motion.h1
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="mb-4 text-5xl font-bold tracking-tight sm:text-7xl"
+          className="mb-4 flex items-center justify-center gap-4"
         >
-          Saranya{" "}
-          <span className="gradient-text">Srija</span>
-        </motion.h1>
+          <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-full border-2 border-border/50 sm:h-16 sm:w-16">
+            <Image
+              src="/images/pfp.png"
+              alt="Saranya Srija"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+          <h1 className="text-5xl font-bold tracking-tight sm:text-7xl">
+            Saranya{" "}
+            <span className="gradient-text">Srija</span>
+          </h1>
+        </motion.div>
 
         {/* Handle */}
         <motion.p

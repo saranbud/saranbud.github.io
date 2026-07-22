@@ -27,13 +27,13 @@ export function About() {
           {/* Image placeholder + Terminal */}
           <FadeIn direction="left">
             <div className="space-y-6">
-              <div className="relative overflow-hidden rounded-2xl border border-border/50 neon-glow">
+              <div className="relative mx-auto w-48 overflow-hidden rounded-2xl border border-border/50 neon-glow sm:w-56">
                 <Image
                   src="/images/pfp.png"
                   alt="Saranya Srija"
                   width={600}
                   height={600}
-                  className="w-full aspect-square object-cover"
+                  className="aspect-square object-cover"
                   priority
                 />
               </div>
