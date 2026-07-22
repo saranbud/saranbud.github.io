@@ -87,26 +87,25 @@ $ echo $STATUS
                 <p className="mb-3 text-xs font-mono tracking-wider text-muted-foreground uppercase">
                   Where I&apos;ve Worked
                 </p>
-                <div className="flex items-center gap-6">
-                  <div className="flex items-center gap-2">
-                    <div className="relative h-8 w-8 overflow-hidden rounded-full border border-border/50 bg-card">
-                      <Image src="/images/katbotz.svg" alt="KATBOTZ LLC" fill className="object-contain p-1" />
-                    </div>
-                    <span className="text-xs text-muted-foreground">KATBOTZ LLC</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <div className="relative h-8 w-8 overflow-hidden rounded-full border border-border/50 bg-card">
-                      <Image src="/images/datagaps.jpg" alt="Datagaps" fill className="object-cover" />
-                    </div>
-                    <span className="text-xs text-muted-foreground">Datagaps</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <div className="relative h-8 w-8 overflow-hidden rounded-full border border-border/50 bg-card">
-                      <Image src="/images/asu.png" alt="ASU" fill className="object-cover" />
-                    </div>
-                    <span className="text-xs text-muted-foreground">ASU</span>
-                  </div>
-                </div>
+                <motion.div className="flex items-center gap-6">
+                  {[
+                    { src: "/images/katbotz.svg", alt: "KATBOTZ LLC" },
+                    { src: "/images/datagaps.jpg", alt: "Datagaps" },
+                    { src: "/images/asu.png", alt: "ASU" },
+                  ].map((logo, i) => (
+                    <motion.div
+                      key={logo.alt}
+                      className="flex items-center gap-2"
+                      whileHover={{ scale: 1.15 }}
+                      transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    >
+                      <div className="relative h-12 w-16 overflow-hidden rounded-lg border border-border/50 bg-card">
+                        <Image src={logo.src} alt={logo.alt} fill className="object-contain p-1.5" />
+                      </div>
+                      <span className="text-xs text-muted-foreground">{logo.alt}</span>
+                    </motion.div>
+                  ))}
+                </motion.div>
               </div>
 
               {/* Stats grid */}
