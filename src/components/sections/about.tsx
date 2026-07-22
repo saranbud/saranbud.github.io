@@ -18,7 +18,7 @@ export function About() {
     <section id="about" className="py-32 px-6">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
-          label="// about"
+          label="// who am i"
           title="Data Analyst That Ships"
           description="Turning data into decisions - with dashboards, models, and insights."
         />
@@ -80,6 +80,33 @@ $ echo $STATUS
                 <p>
                   My toolkit spans SQL, Tableau, Power BI, Python, Databricks, HubSpot, and Excel. I hold an MS in Business Analytics from ASU (Supply Chain concentration) and bring a Lean Six Sigma mindset to every problem. When I&apos;m not wrangling data, I&apos;m exploring new analytics tools and building data-driven side projects.
                 </p>
+              </div>
+
+              {/* Where I've Worked */}
+              <div>
+                <p className="mb-3 text-xs font-mono tracking-wider text-muted-foreground uppercase">
+                  Where I&apos;ve Worked
+                </p>
+                <div className="flex items-center gap-6">
+                  <div className="flex items-center gap-2">
+                    <div className="relative h-8 w-8 overflow-hidden rounded-full border border-border/50 bg-card">
+                      <Image src="/images/katbotz.svg" alt="KATBOTZ LLC" fill className="object-contain p-1" />
+                    </div>
+                    <span className="text-xs text-muted-foreground">KATBOTZ LLC</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="relative h-8 w-8 overflow-hidden rounded-full border border-border/50 bg-card">
+                      <Image src="/images/datagaps.jpg" alt="Datagaps" fill className="object-cover" />
+                    </div>
+                    <span className="text-xs text-muted-foreground">Datagaps</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <div className="relative h-8 w-8 overflow-hidden rounded-full border border-border/50 bg-card">
+                      <Image src="/images/asu.png" alt="ASU" fill className="object-cover" />
+                    </div>
+                    <span className="text-xs text-muted-foreground">ASU</span>
+                  </div>
+                </div>
               </div>
 
               {/* Stats grid */}

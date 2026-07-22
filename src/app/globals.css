@@ -142,6 +142,8 @@
   background-size: 60px 60px;
 }
 
+
+
 /* Neon glow utility */
 .neon-glow {
   box-shadow: 0 0 20px oklch(0.75 0.18 195 / 15%),
