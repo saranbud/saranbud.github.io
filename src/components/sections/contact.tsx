@@ -100,16 +100,24 @@ export function Contact() {
                   <form
                     action="https://formspree.io/f/mwvgnrol"
                     method="POST"
-                    onSubmit={(e) => {
+                    onSubmit={async (e) => {
                       e.preventDefault();
                       const form = e.currentTarget;
-                      fetch(form.action, {
-                        method: "POST",
-                        body: new FormData(form),
-                        headers: { Accept: "application/json" },
-                      }).then((res) => {
-                        if (res.ok) setSubmitted(true);
-                      });
+                      try {
+                        const res = await fetch(form.action, {
+                          method: "POST",
+                          body: new FormData(form),
+                          headers: { Accept: "application/json" },
+                        });
+                        if (res.ok) {
+                          setSubmitted(true);
+                        } else {
+                          const data = await res.json();
+                          alert(data?.error || "Something went wrong. Try again.");
+                        }
+                      } catch {
+                        alert("Network error. Please try again.");
+                      }
                     }}
                     className="space-y-4"
                   >
