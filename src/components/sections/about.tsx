@@ -24,33 +24,20 @@ export function About() {
         />
 
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
-          {/* Image placeholder + Terminal */}
+          {/* Terminal */}
           <FadeIn direction="left">
-            <div className="space-y-6">
-              <div className="relative mx-auto w-48 overflow-hidden rounded-2xl border border-border/50 neon-glow sm:w-56">
-                <Image
-                  src="/images/pfp.png"
-                  alt="Saranya Srija"
-                  width={600}
-                  height={600}
-                  className="aspect-square object-cover"
-                  priority
-                />
-              </div>
-
-              {/* Terminal block */}
-              <Card className="border-border/50 bg-card/50 backdrop-blur-sm">
-                <CardContent className="p-4">
-                  <div className="mb-3 flex items-center gap-2">
-                    <div className="h-3 w-3 rounded-full bg-red-500/70" />
-                    <div className="h-3 w-3 rounded-full bg-yellow-500/70" />
-                    <div className="h-3 w-3 rounded-full bg-green-500/70" />
-                    <span className="ml-2 font-mono text-xs text-muted-foreground">
-                      terminal
-                    </span>
-                  </div>
-                  <pre className="font-mono text-xs leading-relaxed text-muted-foreground">
-                    <code>
+            <Card className="border-border/50 bg-card/50 backdrop-blur-sm">
+              <CardContent className="p-4">
+                <div className="mb-3 flex items-center gap-2">
+                  <div className="h-3 w-3 rounded-full bg-red-500/70" />
+                  <div className="h-3 w-3 rounded-full bg-yellow-500/70" />
+                  <div className="h-3 w-3 rounded-full bg-green-500/70" />
+                  <span className="ml-2 font-mono text-xs text-muted-foreground">
+                    terminal
+                  </span>
+                </div>
+                <pre className="font-mono text-xs leading-relaxed text-muted-foreground">
+                  <code>
 {`$ whoami
 > saranya_srija
 
@@ -60,11 +47,10 @@ $ cat skills.txt
 
 $ echo $STATUS
 > turning data into decisions`}
-                    </code>
-                  </pre>
-                </CardContent>
-              </Card>
-            </div>
+                  </code>
+                </pre>
+              </CardContent>
+            </Card>
           </FadeIn>
 
           {/* Bio + Stats */}
