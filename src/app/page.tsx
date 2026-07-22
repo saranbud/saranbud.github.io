@@ -5,6 +5,7 @@ import { Writeups } from "@/components/sections/writeups";
 import { Skills } from "@/components/sections/skills";
 import { Experience } from "@/components/sections/experience";
 import { Education } from "@/components/sections/education";
+import { BeyondWork } from "@/components/sections/beyond";
 import { Contact } from "@/components/sections/contact";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Skills />
       <Experience />
       <Education />
+      <BeyondWork />
       <Contact />
     </>
   );
