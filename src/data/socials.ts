@@ -15,4 +15,9 @@ export const socials: Social[] = [
     url: "https://www.linkedin.com/in/saranyasrija/",
     icon: "Linkedin",
   },
+  {
+    name: "Instagram",
+    url: "https://instagram.com/saranyasreeja_music",
+    icon: "Instagram",
+  },
 ];
