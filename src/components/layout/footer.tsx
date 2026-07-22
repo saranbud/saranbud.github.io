@@ -1,14 +1,24 @@
-import { GithubIcon, LinkedinIcon } from "@/components/ui/icons";
+import { GithubIcon, LinkedinIcon, InstagramIcon } from "@/components/ui/icons";
 import { Separator } from "@/components/ui/separator";
 
 export function Footer() {
   return (
-    <footer className="border-t border-border/50">
+    <footer className="border-t border-border/30">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-6 py-8 sm:flex-row sm:justify-between">
-        <p className="font-mono text-xs text-muted-foreground">
+        <p className="text-xs text-muted-foreground">
           &copy; {new Date().getFullYear()} Saranya Srija
         </p>
         <div className="flex items-center gap-4">
+          <a
+            href="https://www.linkedin.com/in/saranyasrija/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+            aria-label="LinkedIn"
+          >
+            <LinkedinIcon className="h-4 w-4" />
+          </a>
+          <Separator orientation="vertical" className="h-4" />
           <a
             href="https://github.com/saranbud"
             target="_blank"
@@ -20,13 +30,13 @@ export function Footer() {
           </a>
           <Separator orientation="vertical" className="h-4" />
           <a
-            href="https://www.linkedin.com/in/saranyasrija/"
+            href="https://instagram.com/saranyasreeja_music"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground transition-colors hover:text-foreground"
-            aria-label="LinkedIn"
+            aria-label="Instagram"
           >
-            <LinkedinIcon className="h-4 w-4" />
+            <InstagramIcon className="h-4 w-4" />
           </a>
         </div>
       </div>

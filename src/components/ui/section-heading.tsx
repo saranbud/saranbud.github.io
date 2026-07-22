@@ -12,15 +12,18 @@ export function SectionHeading({
   description,
 }: SectionHeadingProps) {
   return (
-    <FadeIn className="mb-16 text-center">
-      <span className="mb-4 inline-block font-mono text-sm tracking-wider text-primary uppercase">
+    <FadeIn className="mb-16">
+      <span className="mb-4 inline-block font-mono text-xs font-semibold tracking-wider text-primary uppercase">
         {label}
       </span>
-      <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
+      <h2 className="mb-4 text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
         {title}
       </h2>
+      <div className="mb-6 h-1 w-12 bg-primary" />
       {description && (
-        <p className="mx-auto max-w-2xl text-muted-foreground">{description}</p>
+        <p className="max-w-2xl text-muted-foreground leading-relaxed">
+          {description}
+        </p>
       )}
     </FadeIn>
   );
