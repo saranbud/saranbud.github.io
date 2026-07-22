@@ -8,6 +8,14 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
+    company: "Arizona State University",
+    role: "Healthcare Research Assistant to Professor Tam McCreless",
+    period: "Jul 2026 - Present",
+    description:
+      "Assist healthcare IT and outcomes-data research, developing research questions on how AI adoption in hospitals influences clinical outcomes, operational performance, profitability, and enterprise valuation. Review academic literature and assess potential data sources including hospital outcomes, financial statements, and stock-market performance. Develop hypotheses, variable definitions, and analytical frameworks for longitudinal and comparative analyses. Support synthesis of findings into research briefs and study proposals.",
+    tech: ["Research", "Data Analysis", "Healthcare IT", "Statistical Modeling", "Literature Review"],
+  },
+  {
     company: "KATBOTZ LLC",
     role: "Data Analyst Intern",
     period: "Feb 2026 - Present",
