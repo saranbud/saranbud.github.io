@@ -7,7 +7,7 @@ import { FadeIn } from "@/components/motion/fade-in";
 import { Card, CardContent } from "@/components/ui/card";
 
 const stats = [
-  { label: "Projects Delivered", value: "8+" },
+  { label: "Projects Shipped", value: "8+" },
   { label: "Years Experience", value: "1yr" },
   { label: "Tools Mastered", value: "10+" },
   { label: "Certifications", value: "3" },
@@ -20,7 +20,7 @@ export function About() {
         <SectionHeading
           label="// who am i"
           title="Data Analyst That Ships"
-          description="Turning data into decisions - with dashboards, models, and insights."
+          description="Turning data into decisions, first with empathy, then with dashboards, models, and insights :)"
         />
 
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
