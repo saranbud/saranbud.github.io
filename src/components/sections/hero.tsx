@@ -42,7 +42,9 @@ export function Hero() {
           >
             Hi, I&apos;m
             <br />
-            <em className="gradient-text font-normal">Saranya Srija</em>
+            <span className="font-[family-name:var(--font-playfair)] italic font-normal text-primary">
+              Saranya Srija
+            </span>
           </motion.h1>
 
           {/* Tagline */}
