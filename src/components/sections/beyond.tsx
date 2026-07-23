@@ -91,12 +91,34 @@ export function BeyondWork() {
           </FadeIn>
 
           <FadeIn delay={0.1}>
-            <Card className="overflow-hidden border-border/50 bg-card/50 backdrop-blur-sm">
+            <Card className="group relative h-full overflow-hidden border-border/50 bg-card/50 backdrop-blur-sm">
               <CardContent className="p-6">
                 <h3 className="mb-2 font-semibold text-lg">Hackathons & Case Competitions</h3>
-                <p className="text-sm leading-relaxed text-muted-foreground">
-                  [Add your hackathon and case competition experiences here.]
+                <p className="mb-4 text-sm leading-relaxed text-muted-foreground">
+                  Participated in multiple hackathons and case competitions, collaborating with teams to build data-driven solutions under tight deadlines.
                 </p>
+                <div className="flex gap-2">
+                  {[
+                    { src: "/images/hackathon-1.jpg", alt: "ML Day" },
+                    { src: "/images/hackathon-2.jpg", alt: "Capstone" },
+                    { src: "/images/hackathon-3.jpg", alt: "Capstone Project" },
+                    { src: "/images/hackathon-4.jpg", alt: "Class" },
+                  ].map((img) => (
+                    <motion.div
+                      key={img.src}
+                      className="relative h-20 w-20 cursor-pointer overflow-hidden rounded-lg border border-border/50"
+                      whileHover={{ scale: 1.1 }}
+                      onClick={() => setSelectedImage(img.src)}
+                    >
+                      <Image
+                        src={img.src}
+                        alt={img.alt}
+                        fill
+                        className="object-cover"
+                      />
+                    </motion.div>
+                  ))}
+                </div>
               </CardContent>
             </Card>
           </FadeIn>
