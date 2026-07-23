@@ -1,10 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { Mail, ArrowUpRight } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import { GithubIcon, LinkedinIcon, InstagramIcon } from "@/components/ui/icons";
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { SectionHeading } from "@/components/ui/section-heading";
 import { FadeIn } from "@/components/motion/fade-in";
 import { cn } from "@/lib/utils";
 
@@ -33,6 +34,12 @@ const contactInfo = [
     href: "https://instagram.com/saranyasreeja_music",
     icon: <InstagramIcon className="h-5 w-5" />,
   },
+  {
+    label: "LOCATION",
+    value: "Tempe, AZ",
+    href: undefined,
+    icon: <MapPin className="h-5 w-5" />,
+  },
 ];
 
 export function Contact() {
@@ -41,48 +48,45 @@ export function Contact() {
   return (
     <section id="contact" className="py-32 px-6">
       <div className="mx-auto max-w-6xl">
-        <FadeIn>
-          <span className="mb-4 inline-block font-mono text-sm tracking-wider text-primary uppercase">
-            // get in touch
-          </span>
-          <h2 className="mb-2 text-4xl font-bold tracking-tight sm:text-5xl">
-            Let&apos;s start a{" "}
-            <span className="italic text-primary">conversation.</span>
-          </h2>
-          <div className="mb-8 h-1 w-12 bg-primary" />
-        </FadeIn>
+        <SectionHeading
+          label="Get In Touch"
+          title="Let's start a"
+          emphasis="conversation."
+        />
 
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
-          {/* Left: Description + Contact Info */}
+          {/* Left: Contact Info */}
           <FadeIn direction="left">
-            <div className="space-y-8">
+            <div className="space-y-6">
               <p className="max-w-md text-muted-foreground leading-relaxed">
-                Open to data analyst, analytics, and business intelligence roles.
-                Whether it&apos;s a project, a role, or just a good conversation
-                about data and insights — reach out.
+                I&apos;m always open to new opportunities, collaborations, or a
+                good conversation about data and analytics. Drop me a message!
               </p>
 
               <div className="space-y-4">
                 {contactInfo.map((item) => (
-                  <a
-                    key={item.label}
-                    href={item.href}
-                    target={item.label !== "EMAIL" ? "_blank" : undefined}
-                    rel={item.label !== "EMAIL" ? "noopener noreferrer" : undefined}
-                    className="group flex items-center gap-4"
-                  >
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-border/50 bg-card text-muted-foreground transition-colors group-hover:border-primary/50 group-hover:text-primary">
+                  <div key={item.label} className="flex items-center gap-4">
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-border/50 bg-card text-muted-foreground">
                       {item.icon}
                     </div>
                     <div>
-                      <p className="text-xs font-mono tracking-wider text-primary uppercase">
+                      <p className="text-xs font-semibold tracking-wider text-primary uppercase">
                         {item.label}
                       </p>
-                      <p className="text-sm text-muted-foreground transition-colors group-hover:text-foreground">
-                        {item.value}
-                      </p>
+                      {item.href ? (
+                        <a
+                          href={item.href}
+                          target={item.label !== "EMAIL" ? "_blank" : undefined}
+                          rel={item.label !== "EMAIL" ? "noopener noreferrer" : undefined}
+                          className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                        >
+                          {item.value}
+                        </a>
+                      ) : (
+                        <p className="text-sm text-muted-foreground">{item.value}</p>
+                      )}
                     </div>
-                  </a>
+                  </div>
                 ))}
               </div>
             </div>

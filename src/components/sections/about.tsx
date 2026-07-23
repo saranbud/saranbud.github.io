@@ -18,8 +18,8 @@ export function About() {
     <section id="about" className="py-32 px-6">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
-          label="// who am i"
-          title="Data Analyst That Ships"
+          label="About Me"
+          title="Who Am I?"
           description="Turning data into decisions, first with empathy, then with dashboards, models, and insights :)"
         />
 

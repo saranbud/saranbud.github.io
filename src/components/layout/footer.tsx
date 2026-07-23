@@ -1,42 +1,36 @@
 import { GithubIcon, LinkedinIcon, InstagramIcon } from "@/components/ui/icons";
-import { Separator } from "@/components/ui/separator";
 
 export function Footer() {
   return (
     <footer className="border-t border-border/30">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-6 py-8 sm:flex-row sm:justify-between">
         <p className="text-xs text-muted-foreground">
-          &copy; {new Date().getFullYear()} Saranya Srija
+          &copy; {new Date().getFullYear()} Saranya Srija &middot; Tempe, AZ
         </p>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-6">
           <a
             href="https://www.linkedin.com/in/saranyasrija/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-muted-foreground transition-colors hover:text-foreground"
-            aria-label="LinkedIn"
+            className="text-xs font-medium tracking-wider text-muted-foreground uppercase transition-colors hover:text-foreground"
           >
-            <LinkedinIcon className="h-4 w-4" />
+            LinkedIn
           </a>
-          <Separator orientation="vertical" className="h-4" />
           <a
             href="https://github.com/saranbud"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-muted-foreground transition-colors hover:text-foreground"
-            aria-label="GitHub"
+            className="text-xs font-medium tracking-wider text-muted-foreground uppercase transition-colors hover:text-foreground"
           >
-            <GithubIcon className="h-4 w-4" />
+            GitHub
           </a>
-          <Separator orientation="vertical" className="h-4" />
           <a
             href="https://instagram.com/saranyasreeja_music"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-muted-foreground transition-colors hover:text-foreground"
-            aria-label="Instagram"
+            className="text-xs font-medium tracking-wider text-muted-foreground uppercase transition-colors hover:text-foreground"
           >
-            <InstagramIcon className="h-4 w-4" />
+            Instagram
           </a>
         </div>
       </div>

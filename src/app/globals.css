@@ -118,6 +118,23 @@
   color: oklch(0.50 0.18 250);
 }
 
+/* Hero photo frame with decorative border */
+.hero-photo-frame {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 2px solid oklch(0.50 0.18 250 / 30%);
+  box-shadow: 0 8px 30px oklch(0.50 0.18 250 / 10%);
+}
+.hero-photo-frame::before {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 1.25rem;
+  border: 2px solid oklch(0.50 0.18 250 / 20%);
+  pointer-events: none;
+}
+
 /* Gradient border */
 .gradient-border {
   position: relative;
