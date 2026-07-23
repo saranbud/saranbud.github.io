@@ -42,7 +42,7 @@ export function Hero() {
           >
             Hi, I&apos;m
             <br />
-            <span className="gradient-text">Saranya Srija</span>
+            <em className="gradient-text font-normal">Saranya Srija</em>
           </motion.h1>
 
           {/* Tagline */}
