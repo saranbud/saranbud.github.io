@@ -22,7 +22,7 @@ export function Navbar() {
   return (
     <header className="fixed top-0 z-50 w-full border-b border-border/30 bg-background/95 backdrop-blur-sm">
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-        <a href="#" className="text-lg font-bold tracking-tight text-foreground">
+        <a href="#" className="font-[family-name:var(--font-playfair)] italic text-lg font-semibold tracking-tight text-foreground">
           Saranya Srija
         </a>
 
