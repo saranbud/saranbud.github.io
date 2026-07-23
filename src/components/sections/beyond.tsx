@@ -68,12 +68,24 @@ export function BeyondWork() {
         {/* Other Beyond Work Items */}
         <div className="grid gap-6 md:grid-cols-2">
           <FadeIn>
-            <Card className="overflow-hidden border-border/50 bg-card/50 backdrop-blur-sm">
+            <Card className="group relative h-full overflow-hidden border-border/50 bg-card/50 backdrop-blur-sm">
               <CardContent className="p-6">
                 <h3 className="mb-2 font-semibold text-lg">Community Building</h3>
-                <p className="text-sm leading-relaxed text-muted-foreground">
-                  Built and grew a community from zero. [Add your community name, size, and impact here.]
+                <p className="mb-4 text-sm leading-relaxed text-muted-foreground">
+                  Built <strong className="text-foreground">800 followers</strong> on Instagram with <strong className="text-foreground">127K views</strong> on music and instruments content.
                 </p>
+                <motion.div
+                  className="relative h-32 w-full cursor-pointer overflow-hidden rounded-lg border border-border/50"
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() => setSelectedImage("/images/instagram.jpg")}
+                >
+                  <Image
+                    src="/images/instagram.jpg"
+                    alt="Instagram Music Content"
+                    fill
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                </motion.div>
               </CardContent>
             </Card>
           </FadeIn>
