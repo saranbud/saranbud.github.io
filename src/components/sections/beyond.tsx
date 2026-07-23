@@ -77,10 +77,10 @@ export function BeyondWork() {
                 <motion.div
                   className="relative h-32 w-full cursor-pointer overflow-hidden rounded-lg border border-border/50"
                   whileHover={{ scale: 1.02 }}
-                  onClick={() => setSelectedImage("/images/instagram.jpg")}
+                  onClick={() => setSelectedImage("/images/instagramss.png")}
                 >
                   <Image
-                    src="/images/instagram.jpg"
+                    src="/images/instagramss.png"
                     alt="Instagram Music Content"
                     fill
                     className="object-cover transition-transform duration-300 group-hover:scale-105"
