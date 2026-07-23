@@ -93,9 +93,9 @@ export function BeyondWork() {
           <FadeIn delay={0.1}>
             <Card className="overflow-hidden border-border/50 bg-card/50 backdrop-blur-sm">
               <CardContent className="p-6">
-                <h3 className="mb-2 font-semibold text-lg">Travel & Curiosity</h3>
+                <h3 className="mb-2 font-semibold text-lg">Hackathons & Case Competitions</h3>
                 <p className="text-sm leading-relaxed text-muted-foreground">
-                  Exploring new places and staying curious about the world beyond the screen.
+                  [Add your hackathon and case competition experiences here.]
                 </p>
               </CardContent>
             </Card>
