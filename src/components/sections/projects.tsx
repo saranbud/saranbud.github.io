@@ -45,9 +45,8 @@ export function Projects() {
     <section id="projects" className="py-32 px-6">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
-          label="My Work"
-          title="How do I turn data into"
-          emphasis="results?"
+          label="// projects"
+          title="What I've Built"
           description="Dashboards and data visualizations built with Tableau, Databricks Lakeview, and other BI tools."
         />
 

@@ -12,9 +12,8 @@ export function Experience() {
     <section id="experience" className="py-32 px-6">
       <div className="mx-auto max-w-4xl">
         <SectionHeading
-          label="Work Experience"
-          title="How have I made an"
-          emphasis="impact?"
+          label="// experience"
+          title="Where I've Worked"
           description="From open-source contributions to scaling AI at top companies."
         />
 

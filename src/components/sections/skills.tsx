@@ -18,9 +18,8 @@ export function Skills() {
     <section id="skills" className="py-32 px-6">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
-          label="Tech Stack"
-          title="What tools do I"
-          emphasis="use?"
+          label="// skills"
+          title="Tech Stack"
           description="The tools and technologies I work with daily."
         />
 
