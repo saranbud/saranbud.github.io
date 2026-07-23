@@ -22,7 +22,7 @@ export function BeyondWork() {
         <SectionHeading
           label="Beyond Work"
           title="Community, Creativity &"
-          emphasis="Travel"
+          emphasis="Growth"
           description="What I do when I'm not analyzing data."
         />
 
