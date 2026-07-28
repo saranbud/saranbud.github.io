@@ -92,11 +92,11 @@ export function Hero() {
               View My Work
             </a>
             <a
-              href="/saranya_resume_pdf.pdf"
+              href="/saranya_resume.pdf"
               download
               className={cn(
                 buttonVariants({ variant: "outline", size: "lg" }),
-                "gap-2"
+                "gap-2 transition-all duration-300 hover:bg-primary/10 hover:border-primary/40 hover:text-primary hover:shadow-[0_0_20px_oklch(0.50_0.18_250_/_15%)]"
               )}
             >
               <Download className="h-4 w-4" />
