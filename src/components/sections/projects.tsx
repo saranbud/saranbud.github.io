@@ -44,7 +44,7 @@ export function Projects() {
       : projects.filter((p) => p.category === activeCategory);
 
   return (
-    <section id="projects" className="py-32 px-6">
+    <section id="projects" className="px-6 pt-16 pb-8">
       <div className="mx-auto max-w-6xl">
         <button
           onClick={() => setIsOpen(!isOpen)}
@@ -73,6 +73,7 @@ export function Projects() {
               transition={{ duration: 0.3 }}
               className="overflow-hidden"
             >
+              <div className="pb-32 pt-16">
               {/* Filter tabs */}
               <div className="mb-12 flex flex-wrap justify-center gap-2">
                 {Object.entries(categoryLabels).map(([key, label]) => {
@@ -139,6 +140,7 @@ export function Projects() {
                   </p>
                 </div>
               )}
+              </div>
             </motion.div>
           )}
         </AnimatePresence>

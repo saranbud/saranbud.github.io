@@ -27,7 +27,7 @@ export function Writeups() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <section id="writeups" className="py-32 px-6">
+    <section id="writeups" className="px-6 pt-16 pb-8">
       <div className="mx-auto max-w-6xl">
         <button
           onClick={() => setIsOpen(!isOpen)}
@@ -56,6 +56,7 @@ export function Writeups() {
               transition={{ duration: 0.3 }}
               className="overflow-hidden"
             >
+              <div className="pb-32 pt-16">
               <StaggerChildren className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                 {writeups.map((item) => {
                   const Icon = iconMap[item.icon] ?? Code;
@@ -93,6 +94,7 @@ export function Writeups() {
                   );
                 })}
               </StaggerChildren>
+              </div>
             </motion.div>
           )}
         </AnimatePresence>
