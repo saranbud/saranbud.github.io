@@ -7,11 +7,11 @@ export function CustomCursor() {
   const cursorX = useMotionValue(-100);
   const cursorY = useMotionValue(-100);
 
-  const springConfig = { damping: 25, stiffness: 200, mass: 0.5 };
+  const springConfig = { damping: 30, stiffness: 400, mass: 0.2 };
   const dotX = useSpring(cursorX, springConfig);
   const dotY = useSpring(cursorY, springConfig);
 
-  const trailConfig = { damping: 20, stiffness: 120, mass: 0.8 };
+  const trailConfig = { damping: 28, stiffness: 300, mass: 0.3 };
   const trailX = useSpring(cursorX, trailConfig);
   const trailY = useSpring(cursorY, trailConfig);
 
@@ -101,16 +101,16 @@ export function CustomCursor() {
           translateY: "-50%",
         }}
         animate={{
-          width: isHovering ? 56 : 32,
-          height: isHovering ? 56 : 32,
-          scale: isClicking ? 0.8 : 1,
-          opacity: 0.8,
+          width: isHovering ? 52 : 28,
+          height: isHovering ? 52 : 28,
+          scale: isClicking ? 0.85 : 1,
+          opacity: 0.7,
         }}
         transition={{
           type: "spring",
-          damping: 20,
-          stiffness: 200,
-          mass: 0.5,
+          damping: 25,
+          stiffness: 350,
+          mass: 0.3,
         }}
       />
 
@@ -130,9 +130,9 @@ export function CustomCursor() {
         }}
         transition={{
           type: "spring",
-          damping: 25,
-          stiffness: 300,
-          mass: 0.3,
+          damping: 30,
+          stiffness: 500,
+          mass: 0.2,
         }}
       />
     </>
