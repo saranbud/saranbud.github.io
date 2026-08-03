@@ -77,6 +77,7 @@ $ echo $STATUS
                   {[
                     { src: "/images/katbotz.jpg", alt: "KATBOTZ LLC" },
                     { src: "/images/datagaps.jpg", alt: "Datagaps" },
+                    { src: "/images/ramadevi.svg", alt: "Ramadevi & Co." },
                     { src: "/images/asu.png", alt: "ASU" },
                   ].map((logo, i) => (
                     <motion.div
