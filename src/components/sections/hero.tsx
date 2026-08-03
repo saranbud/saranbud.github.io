@@ -31,7 +31,7 @@ export function Hero() {
             className="mb-8 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-sm font-medium text-primary"
           >
             <span className="text-primary">&#10022;</span>
-            OPEN TO FINANCE DATA ANALYST ROLES
+            OPEN TO DATA & BUSINESS ANALYST ROLES
           </motion.div>
 
           {/* Name */}
@@ -55,7 +55,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mb-8 max-w-lg text-lg text-muted-foreground leading-relaxed"
           >
-            MS Business Analytics @ ASU. I build driver-based budgeting engines, automated data pipelines, and financial planning models that drive enterprise decisions.
+            MS Business Analytics @ ASU. I build driver-based budgeting engines, automated data pipelines, and planning models that drive enterprise decisions.
           </motion.p>
 
           {/* Skill tags */}

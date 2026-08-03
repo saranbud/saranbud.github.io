@@ -19,8 +19,8 @@ export function About() {
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           label="// who am i"
-          title="Financial Data Analyst"
-          description="SAP SAC & SAP BDC Certified. Building driver-based budgeting engines and automated data pipelines for enterprise financial planning."
+          title="Data & Business Analyst"
+          description="SAP SAC & SAP BDC Certified. Building data pipelines, planning models, and analytics solutions that drive enterprise decisions."
         />
 
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
@@ -58,10 +58,10 @@ $ echo $STATUS
             <div className="flex flex-col justify-center space-y-8">
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  I&apos;m Saranya Srija, a Financial Data Analyst based in Tempe, AZ, with 2+ years of experience in corporate planning, financial forecasting, and enterprise data architecture. I specialize in leveraging SAP S/4HANA and SAP Analytics Cloud (SAC) alongside modern cloud platforms like Databricks and AWS to build driver-based budgeting engines and automated data pipelines.
+                  I&apos;m Saranya Srija, a Data & Business Analyst based in Tempe, AZ, with 2+ years of experience in corporate planning, forecasting, and enterprise data architecture. I specialize in leveraging SAP S/4HANA and SAP Analytics Cloud (SAC) alongside modern cloud platforms like Databricks and AWS to build planning engines and automated data pipelines.
                 </p>
                 <p>
-                  Currently at KATBOTZ LLC & Datagaps, I architected financial planning models in SAP SAC across 6 business units and processed 4,500+ global ledger rows mapped to SAP S/4HANA. Previously at Ramadevi & Co., I engineered a driver-based budgeting engine that minimized forecasting variance from ±6% to ±3%. I also built predictive models at Yonder Talent that achieved 90% peak-period staffing coverage.
+                  Currently at KATBOTZ LLC & Datagaps, I architected planning models in SAP SAC across 6 business units and processed 4,500+ global ledger rows mapped to SAP S/4HANA. Previously at Ramadevi & Co., I engineered a driver-based budgeting engine that minimized forecasting variance from ±6% to ±3%. I also built predictive models at Yonder Talent that achieved 90% peak-period staffing coverage.
                 </p>
                 <p>
                   My toolkit spans SAP Analytics Cloud, SAP S/4HANA, SQL, Python, PySpark, Databricks, and AWS. I hold an MS in Business Analytics from ASU (Big Data &amp; Supply Chain concentration) and bring a Lean Six Sigma mindset to every problem.
