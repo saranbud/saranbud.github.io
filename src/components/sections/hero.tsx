@@ -8,12 +8,12 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 const skills = [
-  "SAP Analytics Cloud",
-  "SAP S/4HANA",
   "SQL",
   "Python",
-  "PySpark",
+  "Tableau",
+  "Power BI",
   "Databricks",
+  "Excel",
   "AWS",
 ];
 
